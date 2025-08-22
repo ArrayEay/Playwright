@@ -25,14 +25,6 @@ export class LoginPage {
         await this.page.click(this.locatorButtonLogin);
     }
 
-    async getUsername(): Promise<string> {
-        return await this.page.locator(this.locatorUsername).inputValue();
-    }
-
-    async getPassword(): Promise<string> {
-        return await this.page.locator(this.locatorPassword).inputValue();
-    }
-
     async getErrorMessage(): Promise<string> {
         try {
             return await this.page.locator(this.locatorErrorMessage).textContent() || "";
