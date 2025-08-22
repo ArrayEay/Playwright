@@ -1,0 +1,1743 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/usEr/Documents/Code/Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/usEr/Documents/Code/Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/usEr/Documents/Code/Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "login.spec.ts",
+      "file": "login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "LOGIN FUNCTION",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should logged in successfully with valid credentials: standard_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3058,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:19.126Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-a0710-d-credentials-standard-user-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-a0710-d-credentials-standard-user-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-a0710-d-credentials-standard-user-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-0123c594fd147c8d52f2",
+              "file": "login.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Should logged in successfully with valid credentials: problem_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2811,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:22.419Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-0a12b-id-credentials-problem-user-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-0a12b-id-credentials-problem-user-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-0a12b-id-credentials-problem-user-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-2f815c37db046aeb27bc",
+              "file": "login.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Should logged in successfully with valid credentials: performance_glitch_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7804,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:25.287Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-2fd98-als-performance-glitch-user-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-2fd98-als-performance-glitch-user-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-2fd98-als-performance-glitch-user-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-8de988f8295006e21959",
+              "file": "login.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Should logged in successfully with valid credentials: error_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2780,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:33.144Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-cedf4-alid-credentials-error-user-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-cedf4-alid-credentials-error-user-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-cedf4-alid-credentials-error-user-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-8585b0978b3d98bb1d5d",
+              "file": "login.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Should logged in successfully with valid credentials: visual_user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2791,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:35.972Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-5d22f-lid-credentials-visual-user-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-5d22f-lid-credentials-visual-user-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-5d22f-lid-credentials-visual-user-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-057cffb60694e90bcee5",
+              "file": "login.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: standard_user [case 1]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2765,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:38.820Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-d7b54-tials-standard-user-case-1--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-d7b54-tials-standard-user-case-1--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-d7b54-tials-standard-user-case-1--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-7eada873ded1bbc11f53",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: standard_user [case 2]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2722,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:41.615Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-2df61-tials-standard-user-case-2--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-2df61-tials-standard-user-case-2--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-2df61-tials-standard-user-case-2--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-4915edc76ac204448779",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: standard_user [case 3]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2731,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:44.372Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-505a0-tials-standard-user-case-3--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-505a0-tials-standard-user-case-3--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-505a0-tials-standard-user-case-3--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-25fa75fc9c91ccf4d358",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: locked_out_user [case 4]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2798,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:47.133Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-50de0-als-locked-out-user-case-4--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-50de0-als-locked-out-user-case-4--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-50de0-als-locked-out-user-case-4--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-e53f4fe710a3f9216807",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: locked_out_user [case 5]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2741,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:49.970Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-89183-als-locked-out-user-case-5--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-89183-als-locked-out-user-case-5--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-89183-als-locked-out-user-case-5--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-c7191d1cf88d0a6e441e",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: locked_out_user [case 6]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2753,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:52.747Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-e1469-als-locked-out-user-case-6--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-e1469-als-locked-out-user-case-6--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-e1469-als-locked-out-user-case-6--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-54da74b72ccb19c2216c",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: problem_user [case 7]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2767,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:55.530Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-0c2dc-ntials-problem-user-case-7--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-0c2dc-ntials-problem-user-case-7--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-0c2dc-ntials-problem-user-case-7--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-f7676da83631087a501e",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: problem_user [case 8]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2751,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:16:58.332Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-adae2-ntials-problem-user-case-8--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-adae2-ntials-problem-user-case-8--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-adae2-ntials-problem-user-case-8--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-af416c1185f76e68e707",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: problem_user [case 9]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2774,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:01.114Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-4fd16-ntials-problem-user-case-9--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-4fd16-ntials-problem-user-case-9--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-4fd16-ntials-problem-user-case-9--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-19f9ee896060faeeea8a",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: performance_glitch_user [case 10]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2736,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:03.920Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-dbe56-rmance-glitch-user-case-10--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-dbe56-rmance-glitch-user-case-10--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-dbe56-rmance-glitch-user-case-10--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-1b4a7199d6532be58170",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: performance_glitch_user [case 11]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2775,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:06.687Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-4dad7-rmance-glitch-user-case-11--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-4dad7-rmance-glitch-user-case-11--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-4dad7-rmance-glitch-user-case-11--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-a8b0fe0b0a0b6507d449",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: performance_glitch_user [case 12]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2741,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:09.496Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-1e014-rmance-glitch-user-case-12--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-1e014-rmance-glitch-user-case-12--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-1e014-rmance-glitch-user-case-12--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-6661f53ecaff21da224f",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: error_user [case 13]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2736,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:12.266Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f29a4-entials-error-user-case-13--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f29a4-entials-error-user-case-13--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f29a4-entials-error-user-case-13--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-de79ecd59a11af65b605",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: error_user [case 14]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2731,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:15.034Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f3dc2-entials-error-user-case-14--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f3dc2-entials-error-user-case-14--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f3dc2-entials-error-user-case-14--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-a6acdc6a44c759553dad",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: error_user [case 15]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2760,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:17.792Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-21417-entials-error-user-case-15--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-21417-entials-error-user-case-15--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-21417-entials-error-user-case-15--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-43e252e045475c5c7b1e",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: visual_user [case 16]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2762,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:20.579Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-1509d-ntials-visual-user-case-16--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-1509d-ntials-visual-user-case-16--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-1509d-ntials-visual-user-case-16--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-80cd960258419a8c996b",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: visual_user [case 17]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2731,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:23.372Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-8ef70-ntials-visual-user-case-17--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-8ef70-ntials-visual-user-case-17--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-8ef70-ntials-visual-user-case-17--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-b3452c5a7f9152a146fa",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: visual_user [case 18]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2714,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:26.132Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-83ce0-ntials-visual-user-case-18--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-83ce0-ntials-visual-user-case-18--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-83ce0-ntials-visual-user-case-18--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-e5e031c5d643fed22a76",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: invalid_user [case 19]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2719,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:28.873Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-302f2-tials-invalid-user-case-19--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-302f2-tials-invalid-user-case-19--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-302f2-tials-invalid-user-case-19--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-0f11b8ce64b8f97f4811",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: invalid_user [case 20]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2711,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:31.620Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-9058c-tials-invalid-user-case-20--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-9058c-tials-invalid-user-case-20--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-9058c-tials-invalid-user-case-20--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-697b3d0c006ada387f28",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: invalid_user [case 21]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2767,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:34.360Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-e76e3-tials-invalid-user-case-21--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-e76e3-tials-invalid-user-case-21--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-e76e3-tials-invalid-user-case-21--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-0cb51ef6f9544240dd55",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials: invalid_user [case 22]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2741,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:37.155Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-cd6e0-tials-invalid-user-case-22--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-cd6e0-tials-invalid-user-case-22--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-cd6e0-tials-invalid-user-case-22--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-eaa88d6a0999cde6ff73",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials:  [case 23]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2721,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:39.927Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f27af-nvalid-credentials-case-23--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f27af-nvalid-credentials-case-23--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-f27af-nvalid-credentials-case-23--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-c4fca857d2c423c2deda",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials:  [case 24]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2724,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:42.674Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-3a8b3-nvalid-credentials-case-24--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-3a8b3-nvalid-credentials-case-24--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-3a8b3-nvalid-credentials-case-24--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-35446744f780143add6c",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials:   [case 25]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2700,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:45.430Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-79242-nvalid-credentials-case-25--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-79242-nvalid-credentials-case-25--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-79242-nvalid-credentials-case-25--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-65dcc869e3d11b87f457",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials:   [case 26]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2733,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:48.159Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-8b6f1-nvalid-credentials-case-26--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-8b6f1-nvalid-credentials-case-26--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-8b6f1-nvalid-credentials-case-26--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-00eb7a6e5b87c7ff4c29",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials:  [case 27]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2763,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:50.920Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-ddad0-nvalid-credentials-case-27--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-ddad0-nvalid-credentials-case-27--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-ddad0-nvalid-credentials-case-27--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-95cee4264a6be87fc91d",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            },
+            {
+              "title": "Should logged in fails with an error message when using invalid credentials:   [case 28]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2767,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-22T03:17:53.710Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-522a3-nvalid-credentials-case-28--chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-522a3-nvalid-credentials-case-28--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\usEr\\Documents\\Code\\Playwright\\test-results\\login-LOGIN-FUNCTION-Shoul-522a3-nvalid-credentials-case-28--chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-dd38c0b9304c4a44992b",
+              "file": "login.spec.ts",
+              "line": 23,
+              "column": 13
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-22T03:16:18.596Z",
+    "duration": 99434.105,
+    "expected": 33,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
